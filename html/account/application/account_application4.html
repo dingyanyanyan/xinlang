@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<!--优先使用IE最新版本和Chrome---->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, 	minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<!--禁止浏览器自动的识别-电话号码-email-->
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<!--是否启用Web全屏-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/acc_app3.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		
+		<style type="text/css">
+		body{
+			width:100%;
+			height:100%;
+			background:rgba(0,0,0,.3);
+		}
+			.head_ch{
+				width:30%;
+				margin:5rem auto;
+				color:white;
+			}
+			h2{
+				text-align: center;
+			}
+			.dianwo{
+				margin-top:3rem;
+			}
+		</style>
+		
+	</head>
+	<body>
+		
+		<div class="head_ch">
+			<h1>充值成功</h1>
+			<h2>棒棒的</h2>
+			<h1 class="dianwo">点我OK</h1>
+		</div>
+		
+	</body>
+	<script src="js/rem.js"></script>
+	<script src="js/zepto.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+	
+			
+			$(".dianwo").tap(function(){
+					window.location = "account_application1.html";
+			})
+			
+		})
+	</script>
+</html>

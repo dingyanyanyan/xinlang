@@ -1,0 +1,155 @@
+header {
+  height: 1.8rem;
+  line-height: 1.8rem;
+  padding: 0 0.6rem;
+  background: #FFAC2C;
+  display: flex;
+  justify-content: space-between; }
+  header > div {
+    font-size: 0.9rem; }
+    header > div > a > img {
+      width: 0.45rem;
+      height: 0.7rem; }
+
+.signature {
+  width: 100%;
+  display: flex; }
+  .signature dt {
+    width: 4.43rem; }
+    .signature dt img {
+      width: 2.75rem;
+      margin-top: 0.95rem;
+      margin-left: 0.9rem; }
+  .signature dd {
+    margin-top: 1.4rem; }
+    .signature dd .signature_dd_p1 span:nth-child(1) {
+      color: #FF6C23;
+      font-size: 16px; }
+    .signature dd .signature_dd_p1 span:nth-child(2) {
+      color: #A2A2A2;
+      font-size: 12px; }
+    .signature dd .signature_dd_p2 {
+      margin-top: 0.5rem;
+      color: #A2A2A2; }
+
+.number {
+  width: 100%;
+  margin-top: 0.85rem;
+  background: #F5F5F5;
+  display: flex; }
+  .number .number_left {
+    width: 50%;
+    padding: 0.85rem 0 0.7rem 0;
+    margin-left: 0.67rem; }
+    .number .number_left .number_left1, .number .number_left .number_left2 {
+      border-right: 1px solid #EAEAEA; }
+      .number .number_left .number_left1 p:nth-child(1), .number .number_left .number_left2 p:nth-child(1) {
+        color: #BDBDBD; }
+      .number .number_left .number_left1 p:nth-child(2), .number .number_left .number_left2 p:nth-child(2) {
+        color: #595959;
+        font-size: 16px;
+        margin-top: 0.65rem; }
+    .number .number_left .number_left2 {
+      margin-top: 0.8rem; }
+    .number .number_left .btn1 {
+      margin-top: 1rem;
+      background: #FA5A2A;
+      color: #fff;
+      border-radius: 10px;
+      width: 6rem;
+      height: 1.5rem; }
+  .number .number_right {
+    width: 50%;
+    padding: 0.85rem 0 0.7rem 0;
+    margin-left: 0.67rem; }
+    .number .number_right .number_right1, .number .number_right .number_right2 {
+      border-right: 1px solid #EAEAEA; }
+      .number .number_right .number_right1 p:nth-child(1), .number .number_right .number_right2 p:nth-child(1) {
+        color: #BDBDBD; }
+      .number .number_right .number_right1 p:nth-child(2), .number .number_right .number_right2 p:nth-child(2) {
+        color: #595959;
+        font-size: 16px;
+        margin-top: 0.65rem; }
+    .number .number_right .number_right2 {
+      margin-top: 0.8rem; }
+    .number .number_right .btn2 {
+      margin-top: 1rem;
+      background: #FFAC2C;
+      color: #fff;
+      border-radius: 10px;
+      width: 6rem;
+      height: 1.5rem; }
+
+.expen {
+  width: 90%;
+  margin: 0 auto; }
+  .expen .expen_p {
+    color: #F95A29;
+    font-size: 16px; }
+  .expen .expen_ul {
+    position: relative;
+    margin-top: 5.3rem;
+    border-bottom: 2px solid #F95A29; }
+    .expen .expen_ul li {
+      position: absolute; }
+      .expen .expen_ul li img {
+        width: 3rem; }
+    .expen .expen_ul li:nth-child(1) {
+      left: 0.7rem;
+      bottom: 0px; }
+    .expen .expen_ul li:nth-child(2) {
+      left: 5.9rem;
+      bottom: 0px; }
+    .expen .expen_ul li:nth-child(3) {
+      left: 10.875rem;
+      bottom: 0px; }
+  .expen .duan {
+    position: relative; }
+    .expen .duan .duan1 {
+      position: absolute;
+      top: -5rem;
+      background: #F6F6F6;
+      color: #FA5A2A;
+      padding: 2px;
+      left: 1.75rem;
+      font-size: 0.4rem; }
+    .expen .duan .duan2 {
+      position: absolute;
+      top: -4.4rem;
+      background: #F6F6F6;
+      color: #3CB7FD;
+      padding: 2px;
+      left: 6.75rem;
+      font-size: 0.1rem; }
+    .expen .duan .duan3 {
+      position: absolute;
+      top: -5.4rem;
+      background: #F6F6F6;
+      color: #FFB900;
+      padding: 2px;
+      left: 10.3rem;
+      font-size: 0.4rem; }
+  .expen .expen_ulZi {
+    display: flex; }
+    .expen .expen_ulZi li {
+      -webkit-flex-grow: 1;
+      text-align: center;
+      color: #CFCFCF; }
+
+.full {
+  width: 90%;
+  margin: 0.75rem auto;
+  background: #FCE1B6;
+  border-radius: 10px;
+  color: #FE7E38; }
+  .full p {
+    padding-top: 0.2rem; }
+    .full p img {
+      width: 1.55rem; }
+  .full p:nth-child(2) {
+    text-align: center; }
+  .full p:nth-child(3) {
+    text-align: center;
+    padding-bottom: 0.4rem; }
+
+/*# sourceMappingURL=acc_app1.css.map */

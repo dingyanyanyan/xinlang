@@ -1,0 +1,162 @@
+body{
+	background: #f5f5f5;
+}
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+input::-webkit-input-placeholder {
+  color: #a9a9a9; }
+
+header {
+	height: 1.8rem;
+	line-height: 1.8rem;
+	display: flex;
+	justify-content: space-between;
+	background: #ffac2c;
+	padding: 0 0.6rem;
+}
+
+header>div {
+	font-size: 0.9rem;
+	color: #fff;
+}
+header>div a{
+	color: #fff;
+}
+header>div>a>img {
+	width: 0.45rem;
+	height: 0.7rem;
+}
+#xinxi{
+	width: 5rem;
+	position:relative;
+}
+#xinxi span{
+	position: absolute;
+	right: 0;
+	border: 6px solid transparent;
+	border-top-color:#fff ;
+	top: 45%;
+}
+.contHead{
+	height: 100px;
+	background: #ffac2c;
+	padding: 20px 0;
+	display: flex;
+	margin-bottom: 8px;
+}
+.contHead>div{
+	width: 8rem;
+	/*text-align: center;*/
+	color: #fff;
+}
+.contHead>div:first-child{
+	border-right: 1px solid #eee;
+}
+.contHead>div>p{
+	padding: 10px 0; 
+	margin: 0 auto;
+	width: 6rem;
+}
+.contHead_title{
+	font-size: 0.8rem;
+}
+.contHead_sum{
+	font-size: 1rem;
+}
+.contCent{
+	background: #fff;
+	margin-bottom: 8px;
+}
+.contCent h3{
+	display: flex;
+	justify-content: space-between;
+	padding: 4px 8px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.contCent h3 img{
+	width: 1.2rem;
+	vertical-align: middle;
+}
+.contCent h3>div:last-child>a{
+	color: #999;
+	font-weight: normal;
+}
+.contCent>div{
+	background: #fff;
+	height: 80px;
+	padding: 15px 0;
+	display: flex;
+}
+.contCent>div>div{
+	width: 8rem;
+	text-align: center;
+}
+.contCent>div>div:first-child{
+	border-right: 1px solid #eee;
+}
+.contCent>div>div>p{
+	padding: 10px 0;
+}
+.contCent>div>div>p:last-child{
+	color: #f73e05;
+}
+.contCent_num{
+	font-size: 1rem;
+}
+.account{
+	width: 100%;
+	height: 87.2%;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	top: 1.8rem;
+	left: 0;
+	display: none;
+}
+.account>div{
+	background: #fff;
+	padding:22px 15px;
+}
+.account>div>div:first-child{
+	width: 3.5rem;
+	height: 16px;
+	border-radius:4px ;
+	background: #ffad2d;
+	text-align: center;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+.account>div>div:first-child a{
+	color:#fff;
+}
+.account>div>div:nth-child(2){
+	position: relative;
+}
+.account>div>div:nth-child(2) span{
+	position: absolute;
+	color: #999;
+	top: -8px;
+	background: #fff;
+	left: 41.4%;
+	padding:0 15px;
+}
+.account>div>div:last-child{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.account>div>div:last-child>div{
+	width: 3.5rem;
+	height: 16px;
+	border-radius:4px ;
+	background: #e0e0e0;
+	text-align: center;
+	padding: 10px 0;
+}
+.contCent .iconfont{
+	font-size: 14px;
+}

@@ -1,0 +1,178 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+input::-webkit-input-placeholder {
+  color: #a9a9a9; }
+  nav{
+     background: rgb(250,90,42);
+     height: 1.8rem;  
+  
+.head{
+  line-height: 1.8rem;
+  margin: 0 0.5rem;
+  display: flex;
+  justify-content: space-between; 
+  div {
+    color: white;
+    font-size: 0.9rem; 
+    a{
+        color: white;
+        b{
+         
+            width: 0.8rem;
+            height: 0.8rem;
+            border: solid white;
+            border-width: 0.1rem 0.1rem 0 0;
+            display: inline-block;
+            transform: rotate(230deg);
+            position:relative;
+             
+        }
+    
+            }
+        }
+
+    }
+    .container{
+    width: 100%;
+    height: 92%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+}
+.account{
+    width: 16rem;
+    height: 12.5rem;
+    background: white;
+//  background: rgba(0,0,0,0.5);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    .account-box{
+//      display: none;
+        width: 14.6rem;
+        height: 10rem;
+//      border: 1px solid black;
+        .all{
+           width: 4.5rem; 
+           height: 1.75rem;
+           background: orange;
+           color: white;
+           font-size: 0.8rem;
+           text-align: center;
+           line-height: 1.7rem;
+           letter-spacing: 0.1rem;
+           border-radius: 3px;
+           
+        }
+        .tdw{
+            background: rgb(233,233,233);
+            font-size: 0.8rem;
+            letter-spacing: 0rem;
+            color: black;
+        }
+        .l{
+            margin-left: 0.9rem;
+        }
+        .game{
+           margin-top: 0.8rem; 
+           display: flex;   
+        }
+        p{
+            padding-top: 0.2rem;
+            text-align: center;
+            color: gainsboro;
+            span{
+                color: gainsboro;
+                font-size: 0.6rem;
+            }
+        }
+        .zc{
+            margin-top:1rem;
+        }
+    }
+}
+}
+header{
+    .head-top{
+        a{
+            img{
+                width: 100%;
+                vertical-align: top;
+            }
+        }
+    }
+    .header-nav{       
+        height: 1.95rem;
+        background: rgb(255,185,0);
+        .header-nav-time{
+            margin: 0 auto;
+            width: 15rem;
+            font-size: 0.7rem;
+            line-height: 1.25rem;
+            line-height: 1.9rem;
+            display: flex;
+            justify-content: space-between;
+            a{
+               color: white; 
+            }
+        }       
+    }
+    .header-content{
+        .content{
+        
+            height: 4.45rem;
+            border-bottom: 1px solid gainsboro;
+            display: flex;
+            align-items:center ;
+
+            .content-text{
+                margin-left: 0.75rem;             
+                width: 11rem;
+                height: 3rem;
+            
+                .content-t{
+                    margin-top: -0.2rem;
+                   font-size: 0.9rem;
+                 }
+                .content-m{
+                    display: flex;
+                    justify-content: space-between;
+                    .ttxxl{
+                            margin: 0.2rem 0;    
+                            font-size: 0.6rem;
+                            color: orange;
+                            width: 3.15rem;
+                            height: 0.8rem;
+                            border: 1px solid orange;
+                            text-align: center;
+                            border-radius: 8px;
+                    }
+                    .web{
+                        width: 4rem;
+                        color: rgb(111,199,253);
+                        border: 1px solid rgb(111,199,253);
+                    }
+                    .red{
+                         color: rgb(251,152,122);
+                         border: 1px solid rgb(251,152,122);
+                    }   
+                    
+                }
+                .content-b{
+                    
+                   color: gray;
+                }
+            }
+        }
+    }
+}

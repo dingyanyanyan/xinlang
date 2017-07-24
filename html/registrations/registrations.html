@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">		
+		<title>注册量统计</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="js/rem.js"></script>
+		<script src="js/zepto.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/registrations.css"/>
+	</head>
+	<body>
+		<nav>
+			<div class="head">
+			    <div>
+			    	<a class="hou">
+				    	<b></b>
+				    </a>
+			    </div>
+			    <div id="consum">
+			    	<a>注册量统计</a>
+			    </div>
+			    <div></div>
+			</div>
+			<div class="container">		
+		<div class="account">
+			<div class="account-box">
+				<div class="all">
+					全部
+				</div>
+				<p>————————<span>&nbsp;应用场景 &nbsp;</span>————————</p>
+				<div class="game">
+					<div class="all tdw">
+						APP
+					</div>
+					<div class="all tdw l">
+						H5/web
+					</div>	
+				</div>
+				<div class="zc">
+				<p>————————<span>&nbsp;注册方式 &nbsp;</span>————————</p>
+					<div class="game">
+						<div class="all tdw">
+							APP
+						</div>
+						<div class="all tdw l">
+							H5/web
+						</div>	
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		</div>
+		</nav>
+		<header>
+			<div class="head-top">
+				<a>
+					<img src="img/resong.png"/>
+				</a>
+			</div>
+			<div class="header-nav">
+				<div class="header-nav-time">
+					<a>今日注册量</a>
+					<a>一周注册量</a>
+					<a>一个月注册量</a>
+				</div>
+			</div>
+				<div class="header-content">
+					<div class="content">
+						<div class="content-text">
+							<div class="content-t">
+								15896541254
+							</div>
+							<div class="content-m">
+								<div class="ttxxl">
+									天天消消乐
+								</div>
+								<div class="ttxxl">
+									APP场景
+								</div>
+								<div class="ttxxl">
+									短信注册
+								</div>
+							</div>
+							<div class="content-b">
+								注册时间:2017/7/20 20:00
+							</div>
+						</div>
+			
+					</div>
+				</div>
+				<div class="header-content">
+					<div class="content">
+						<div class="content-text">
+							<div class="content-t">
+								18865412365
+							</div>
+							<div class="content-m">
+								<div class="ttxxl">
+									天天消消乐
+								</div>
+								<div class="ttxxl web">
+									H5/web场景
+								</div>
+								<div class="ttxxl red">
+									闪注注册
+								</div>
+							</div>
+							<div class="content-b">
+								注册时间:2017/7/20 20:00
+							</div>
+						</div>
+			
+					</div>
+				</div>
+				<div class="header-content">
+					<div class="content">
+						<div class="content-text">
+							<div class="content-t">
+								15246741251
+							</div>
+							<div class="content-m">
+								<div class="ttxxl">
+									天天消消乐
+								</div>
+								<div class="ttxxl">
+									APP场景
+								</div>
+								<div class="ttxxl">
+									短信注册
+								</div>
+							</div>
+							<div class="content-b">
+								注册时间:2017/7/20 20:00
+							</div>
+						</div>
+			
+					</div>
+				</div>
+				<div class="header-content">
+					<div class="content">
+						<div class="content-text">
+							<div class="content-t">
+								13452874124
+							</div>
+							<div class="content-m">
+								<div class="ttxxl">
+									天天消消乐
+								</div>
+								<div class="ttxxl web">
+									H5/web场景
+								</div>
+								<div class="ttxxl red">
+									闪注注册
+								</div>
+							</div>
+							<div class="content-b">
+								注册时间:2017/7/20 20:00
+							</div>
+						</div>
+			
+					</div>
+				</div>
+		</header>
+		<div class="">
+			
+		</div>
+		<script>
+		$(function(){
+			$(".container").hide();
+
+			var flag=false;
+			$("#consum").on("tap",function(){
+				flag=!flag;
+				show();
+				
+			})
+			function show(){
+				if(flag){
+					$(".container").show();
+					
+				}else{
+					$(".container").hide();
+					
+				}
+			}
+			$(".account").on("tap",function(){
+				flag=false;
+				show();
+			
+			})
+			
+			$(".hou").tap(function(){
+				window.location = "../set/geren-home.html";
+			})
+			
+		})
+	</script>	
+	</body>
+</html>

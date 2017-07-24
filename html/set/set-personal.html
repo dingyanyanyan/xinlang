@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0 maximum-scale=1.0, user-scalable=no" />
+		<!--优先使用IE最新版本和Chrome-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1" />
+		<!--禁止浏览器自动的识别-电话号码-email--->
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<!--是否启用Web全屏-->
+		<meta name="apple-mobile-web-app-capable" content='yes' />
+		<!--设置苹果工具栏颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content='black' />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/set-personal.css" />
+	</head>
+
+	<body>
+		<header>
+				<a href="#" class="hou"></a>
+				<p>个人资料</p>
+		</header>
+		<div class="hea">
+			<img src="img/logo2.png" alt="" />
+			<div class="hea-one">
+				<div class="one-1">
+					<p>SZ1049</p>
+					<p>个人用户</p>
+				</div>
+				<div class="one-2">
+					<p>未认证</p>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="cont-one">
+				完善个人资料可享受更多闪注优惠
+			</div>
+			<div class="cont-two">
+				<ul>
+					<li>
+						<p>Email</p>
+						<input type="text" placeholder="未添加邮箱" style="text-align: right;" />
+						<p>
+							<a href="#"><img src="img/jiantou.png" alt=""/></a>
+						</p>
+					</li>
+					<li>
+						<p>联系人</p>
+						<input type="text" placeholder="未添加用户名" style="text-align: right;" />
+						<p>
+							<a href="#"><img src="img/jiantou.png" alt=""/></a>
+						</p>
+					</li>
+					<li>
+						<p>手机号码</p>
+						<input type="text" placeholder="未添加手机号码" style="text-align: right;" />
+						<p>
+							<a href="#"><img src="img/jiantou.png" alt=""/></a>
+						</p>
+					</li>
+					<li>
+						<p>身份证正面</p>
+						<input type="text" placeholder="未上传省份证信息" style="text-align: right;" />
+						<p>
+							<a href="#"><img src="img/jiantou.png" alt=""/></a>
+						</p>
+					</li>
+					<li>
+						<p>身份证背面</p>
+						<input type="text" placeholder="未上传省份证信息" style="text-align: right;" />
+						<p>
+							<a href="#"><img src="img/jiantou.png" alt=""/></a>
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="cont-three">
+				<button id="btn"><a href="#">提交审核</a></button>
+				<div id="three-1">
+					<div id="three-2">
+						<ul>
+							<li>拍照</li>
+							<li>从相册中选择</li>
+							<li>取消</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/rem.js"></script>
+    <script src="js/demo1.js"></script>
+    <script type="text/javascript">
+    	$(".hou").tap(function(){
+			window.location = "xitong-set.html";
+		})
+    </script>
+</html>

@@ -1,0 +1,202 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  
+   }
+
+input::-webkit-input-placeholder {
+  color: #a9a9a9; }
+  nav{
+     background: red;
+     height: 1.8rem;  
+  
+.head{
+  line-height: 1.8rem;
+  margin: 0 0.5rem;
+  display: flex;
+  justify-content: space-between; 
+  div {
+    color: white;
+    font-size: 0.9rem; 
+    a{
+        color: white;
+        b{
+         
+            width: 0.8rem;
+            height: 0.8rem;
+            border: solid white;
+            border-width: 0.1rem 0.1rem 0 0;
+            display: inline-block;
+            transform: rotate(230deg);
+            position:relative;
+             
+        }
+    
+    }
+    
+      
+    
+     
+}
+}
+}
+.container{
+    width: 100%;
+    height: 92%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+}
+.account{
+    width: 16rem;
+    height: 8rem;
+    background: white;
+//  background: rgba(0,0,0,0.5);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    .account-box{
+//      display: none;
+        width: 14.6rem;
+        height: 5.65rem;
+//      border: 1px solid black;
+        .all{
+           width: 4.5rem; 
+           height: 1.75rem;
+           background: orange;
+           color: white;
+           font-size: 0.8rem;
+           text-align: center;
+           line-height: 1.7rem;
+           letter-spacing: 0.1rem;
+           border-radius: 3px;
+           
+        }
+        .tdw{
+            background: rgb(233,233,233);
+            font-size: 0.8rem;
+            letter-spacing: 0rem;
+            color: black;
+        }
+        .game{
+           margin-top: 0.8rem; 
+           display: flex;   
+           justify-content: space-between;
+        }
+        p{
+            padding-top: 0.2rem;
+            text-align: center;
+            color: gainsboro;
+            span{
+                color: gainsboro;
+                font-size: 0.6rem;
+            }
+        }
+    }
+}
+
+header{
+    .header-nav{       
+        height: 1.25rem;
+        background: rgb(245,245,245);
+        .header-nav-time{
+            margin: 0 auto;
+            width: 15rem;
+            font-size: 0.6rem;
+            line-height: 1.25rem;
+            color: gray;
+            display: flex;
+            justify-content: space-between;
+        }       
+    }
+    .header-content{
+        .content{
+            height: 2.5rem;
+            border-bottom: 1px solid gainsboro;
+            display: flex;
+            align-items:center ;
+            .content-text{
+                margin:0 auto;               
+                width: 15.1rem;
+                height: 1.65rem;
+//              border: 1px solid gainsboro;
+                display: flex;
+                justify-content: space-between;
+                .content-l{
+                    width: 8.7rem;
+//                  border: 1px solid black;
+                    display: flex;
+                    
+                    justify-content: space-between;
+                    .content-l-t{
+                        font-size: 0.6rem; 
+                        .content-l-t-r{
+                          
+                            display: flex;
+                            .ttxxl{
+                                font-size: 0.6rem;
+                                color: orange;
+                                width: 3.15rem;
+                                height: 0.8rem;
+                                border: 1px solid orange;
+                                text-align: center;
+                                border-radius: 8px;
+                            }
+                            .da{
+                               border: 1px solid rgb(9,208,245);
+                               color: rgb(9,208,245); 
+                            }
+                            .wz{
+                               border: 1px solid rgb(248,43,224);
+                               color: rgb(248,43,224);  
+                            }
+                            span{
+                               font-size: 0.7rem; 
+                            }
+                        }
+                    }
+                    a{
+                        line-height: 2.2rem;
+                        img{
+                            width: 1.25rem;
+                            height: 1.25rem;
+                            
+                        }
+                    }
+                }
+                .content-r{
+                    span{
+                        font-size: 0.7rem;
+                        color: rgb(0,207,0);
+                        line-height: 1.6rem;
+                    }
+                    .red{
+                        font-size: 0.7rem;
+                        color: red;
+                    }
+                   
+                }
+            }
+        }
+    }
+}
+.global-box{
+   position: relative; 
+// display: none;
+}
+.global{
+    width: 100%;
+    height: 26.5rem;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+

@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+input::-webkit-input-placeholder {
+  color: #a9a9a9; }
+
+nav {
+  background: #fa5a2a;
+  height: 1.8rem; }
+  nav .head {
+    line-height: 1.8rem;
+    margin: 0 0.5rem;
+    display: flex;
+    justify-content: space-between; }
+    nav .head div {
+      color: white;
+      font-size: 0.9rem; }
+      nav .head div a {
+        color: white; }
+        nav .head div a b {
+          width: 0.8rem;
+          height: 0.8rem;
+          border: solid white;
+          border-width: 0.1rem 0.1rem 0 0;
+          display: inline-block;
+          transform: rotate(230deg);
+          position: relative; }
+  nav .container {
+    width: 100%;
+    height: 92%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute; }
+  nav .account {
+    width: 16rem;
+    height: 12.5rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    nav .account .account-box {
+      width: 14.6rem;
+      height: 10rem; }
+      nav .account .account-box .all {
+        width: 4.5rem;
+        height: 1.75rem;
+        background: orange;
+        color: white;
+        font-size: 0.8rem;
+        text-align: center;
+        line-height: 1.7rem;
+        letter-spacing: 0.1rem;
+        border-radius: 3px; }
+      nav .account .account-box .tdw {
+        background: #e9e9e9;
+        font-size: 0.8rem;
+        letter-spacing: 0rem;
+        color: black; }
+      nav .account .account-box .l {
+        margin-left: 0.9rem; }
+      nav .account .account-box .game {
+        margin-top: 0.8rem;
+        display: flex; }
+      nav .account .account-box p {
+        padding-top: 0.2rem;
+        text-align: center;
+        color: gainsboro; }
+        nav .account .account-box p span {
+          color: gainsboro;
+          font-size: 0.6rem; }
+      nav .account .account-box .zc {
+        margin-top: 1rem; }
+
+header .head-top a img {
+  width: 100%;
+  vertical-align: top; }
+header .header-nav {
+  height: 1.95rem;
+  background: #ffb900; }
+  header .header-nav .header-nav-time {
+    margin: 0 auto;
+    width: 15rem;
+    font-size: 0.7rem;
+    line-height: 1.25rem;
+    line-height: 1.9rem;
+    display: flex;
+    justify-content: space-between; }
+    header .header-nav .header-nav-time a {
+      color: white; }
+header .header-content .content {
+  height: 4.45rem;
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  align-items: center; }
+  header .header-content .content .content-text {
+    margin-left: 0.75rem;
+    width: 11rem;
+    height: 3rem; }
+    header .header-content .content .content-text .content-t {
+      margin-top: -0.2rem;
+      font-size: 0.9rem; }
+    header .header-content .content .content-text .content-m {
+      display: flex;
+      justify-content: space-between; }
+      header .header-content .content .content-text .content-m .ttxxl {
+        margin: 0.2rem 0;
+        font-size: 0.6rem;
+        color: orange;
+        width: 3.15rem;
+        height: 0.8rem;
+        border: 1px solid orange;
+        text-align: center;
+        border-radius: 8px; }
+      header .header-content .content .content-text .content-m .web {
+        width: 4rem;
+        color: #6fc7fd;
+        border: 1px solid #6fc7fd; }
+      header .header-content .content .content-text .content-m .red {
+        color: #fb987a;
+        border: 1px solid #fb987a; }
+    header .header-content .content .content-text .content-b {
+      color: gray; }
+
+/*# sourceMappingURL=registrations.css.map */

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<!--优先使用IE最新版本和Chrome---->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, 	minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<!--禁止浏览器自动的识别-电话号码-email-->
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<!--是否启用Web全屏-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/acc_app2.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		
+		
+	</head>
+	<body>
+		
+		<header>
+		    <div><span class="iconfont icon-houtui hou"></span></div>
+		    <div id="xinxi">账户信息 <span></span></div>
+		    <div></div>
+		</header>
+		<!--头部：top-->
+		<div class="top">
+			<div><img src="img/pay.png" alt="" /></div>
+			<p>闪注目前只支持支付宝充值</p>
+		</div>
+		<!--选择：select-->
+		<div class="select">
+			<p class="select_p">请选择一下充值项目进行充值</p>
+			<ul class="select_ul">
+				<li>
+					<p>
+						<input type="radio" class="radio"/>
+						<img src="img/pay1.png" alt="" />
+						<span>闪注量充值</span>
+					</p>
+					<p>
+						<span>5万条</span>
+						<i class="fa fa-2x fa-sort-desc"></i>
+					</p>
+				</li>
+				<li>
+					<p>
+						<input type="radio" class="radio"/>
+						<img src="img/pay2.png" alt="" />
+						<span>短信量充值</span>
+					</p>
+					<p>
+						<span>1000条</span>
+						<i class="fa fa-2x fa-sort-desc"></i>
+					</p>
+				</li>
+				<li>
+					<p>
+						<input type="radio" class="radio"/>
+						<img src="img/pay3.png" alt="" />
+						<span>优惠套餐包A</span>
+					</p>
+					<p>
+						<span>200万次闪注量</span>
+					</p>
+				</li>
+				<li>
+					<p>
+						<input type="radio" class="radio"/>
+						<img src="img/pay4.png" alt="" />
+						<span>优惠套餐包B</span>
+					</p>
+					<p>
+						<span>10万短信量+10万闪注量</span>
+					</p>
+				</li>
+			</ul>
+		</div>
+		
+		<!--价格：num-->
+		<div class="num">
+			<p>您当前选择的产品项目价格为：500RMB</p>
+		</div>
+		
+		<!--充值：pull-->
+		<div class="pull">
+			<input type="button" value="充值"/>
+		</div>
+		
+		
+	</body>
+	<script src="js/rem.js"></script>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/acc_app2.js"></script>
+</html>

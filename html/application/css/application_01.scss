@@ -1,0 +1,126 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+}
+@mixin pos($p:absolute) {
+    position: $p;
+}
+body{
+    background: #f5f5f5;
+}
+header {
+    width: 100%;
+    height: 3.17rem;
+    background: #feac2b;
+    @include pos(relative);
+    .header_left {
+        @include pos();
+        padding-left: 1rem;
+        width: 20%;
+        line-height: 3.5rem;
+        b {
+            width: 0.8rem;
+            height: 0.8rem;
+            border: solid #FFF;
+            border-width: 0 0 0.2rem 0.2rem;
+            display: inline-block;
+            transform: rotate(45deg);
+        }
+    }
+    .header_center {
+        width: 60%;
+        text-align: center;
+        @include pos();
+        left: 20%;
+        line-height: 3.17rem;
+        font-size: 1.5rem;
+        color: #fff;
+        display: inline-block;
+    }
+    .header_right{
+        width: 20%;
+        @include pos();
+        right: 1rem;
+        font-size: 1.3rem;
+        line-height: 3.5rem;
+        a{
+            color: #fff;
+        }
+    }
+}
+.content {
+    width: 100%;
+    @include pos(relative);
+    .application_01{
+        width: 100%;
+        height: 100%;
+        @include pos(relative);
+        .icon{
+            margin-bottom: 1rem;
+            &:nth-child(1){
+                    ul{
+                        display: block;
+                    }
+                    .icon_div{
+                        border-top: 0;
+                    }
+                }
+            .icon_div{
+                border-top: 1px solid #d9d9d9;
+                border-bottom: 1px solid #d9d9d9;
+                padding: 1.5rem 0 1.5rem 1.5rem;
+                background: white;
+                img{
+                    width: 4.58rem;
+                    height: 4.58rem;
+                    float: left;
+                    margin-right: 1.33rem;
+                }
+                p{
+                    margin-bottom: 1rem;
+                    &:nth-child(2){
+                        color: #727272;
+                        font-size: 1.1rem;
+                        i{
+                            color: #fe4c00;
+                            font-size: 1.8rem;
+                            margin-right: 1rem;
+                        }
+                    }
+                    &:nth-child(3){
+                        color: #727272;
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+            div:after{
+                    display: block;
+                    clear: both;
+                    content: "";
+                }
+        
+            ul{
+                padding: 1.17rem 1.25rem;
+                display: none;
+                li{
+                    color: #aeaeae;
+                    margin-bottom: 1.45rem;
+                    i{
+                        color: #070707;
+                    }
+                    &:nth-child(4){
+                        color: #ff640d;
+                    }
+                    &:nth-child(5){
+                        color: #ff640d;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

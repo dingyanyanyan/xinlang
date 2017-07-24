@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!--优先使用IE最新版本和Chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1"/>
+    <!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <!--禁止浏览器自动的识别-电话号码-email--->
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <!--是否启用Web全屏-->
+    <meta name="apple-mobile-web-app-capable" content='yes'/>
+    <meta name="apple-mobile-web-status-bar-style" content="normal|black|black-translucent">
+    <!--设置苹果工具栏颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content='black'/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/login4.css"/>
+</head>
+<body>
+<header>
+    <div><a href="login3.html"><img src="img/left.png"/></a></div>
+    <div>忘记密码</div>
+    <div></div>
+</header>
+
+<article>
+    <ul>
+        <li><h2>重置您的登录密码</h2></li>
+        <li>
+            <img src="img/suo2.png"/>
+            <div>
+                <input type="password" placeholder="请输入与6-24位的登录密码" id="password"/>
+            </div>
+            <img src="img/yan2.png" id="yan"/>
+        </li>
+        <li>
+            <a href="#" id="next">确认</a>
+        </li>
+    </ul>
+    <div id="tishi">
+        <div>
+            <p>重置密码成功，请重新登录！</p>
+            <div>
+                <div id="quxiao"><a href="#">取消</a></div>
+                <div><a href="../../login.html">确认</a></div>
+            </div>
+        </div>
+    </div>
+</article>
+</body>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/rem.js"></script>
+<script type="text/javascript">
+//   眼图片 显示密码
+    $('#yan').click(function(){
+        console.log("111")
+        if($('#yan').attr('src')=='img/yan2.png'){
+            $('#yan').attr('src','img/yan.png');
+            $('#password').attr('type','text')
+        }else{
+            $('#yan').attr('src','img/yan2.png')
+            $('#password').attr('type','password')
+        }
+    })
+// 下一步
+    $('#next').click(function(){
+        if($('#password').val()==''){
+            alert('请输入手机号码！')
+        }else{
+            $('#tishi').css('display','block');
+        }
+    })
+    //   取消按钮
+    $('#quxiao').tap(function(){
+        $('#tishi').css('display','none');
+        $('#password').val('');
+    })
+</script>
+</html>

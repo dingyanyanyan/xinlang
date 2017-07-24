@@ -1,0 +1,145 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+@mixin pos($p:absolute) {
+    position: $p;
+}
+body {
+    background: #f5f5f5;
+}
+header {
+    width: 100%;
+    height: 3.17rem;
+    background: #f95b29;
+    @include pos(relative);
+    .header_left {
+        @include pos();
+        left: 1rem;
+        line-height: 3.5rem;
+        b {
+            width: 0.8rem;
+            height: 0.8rem;
+            border: solid #FFF;
+            border-width: 0 0 0.2rem 0.2rem;
+            display: inline-block;
+            transform: rotate(45deg);
+        }
+    }
+    .header_center {
+        text-align: center;
+        line-height: 3.17rem;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+}
+.content {
+    width: 100%;
+    @include pos(relative);
+    .application_02 {
+        width: 100%;
+        height: 100%;
+        @include pos(relative);
+        .top {
+            width: 100%;
+            height: 5.83rem;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .application_content {
+            width: 100%;
+            @include pos(relative);
+            ul {
+                width: 100%;
+                background: white;
+                li {
+                    padding: 0.8rem 1rem 0.8rem 1.67rem;
+                    font-size: 1.2rem;
+                    color: black;
+                    display: flex;
+                    @include pos(relative);
+                    height: 2.6rem;
+                    line-height: 2.6rem;
+                    -webkit-justify-content: space-between;
+                    a {
+                        width: 100%;
+                        height: 100%;
+                        .li_div1 {
+                            color: black;
+                            font-size: 1.2rem;
+                            float: left;
+                            b {
+                                color: #f95b29;
+                                @include pos(relative);
+                                top: -.3rem;
+                                font-size: 0.5rem;
+                                font-weight: 100;
+                            }
+                        }
+                        .li_div2 {
+                            color: #acacac;
+                            font-size: 1rem;
+                            float: right;
+                            b {
+                                width: 0.8rem;
+                                height: 0.8rem;
+                                border: solid #dddddd;
+                                border-width: 0 0 0.2rem 0.2rem;
+                                display: inline-block;
+                                transform: rotate(225deg);
+                                @include pos(relative);
+                                top: 0.2rem;
+                                margin-left: 0.5rem;
+                            }
+                        }
+                    }
+                    a:after{
+                        display: block;
+                        clear: both;
+                        content: "";
+                    }
+                    &:nth-child(1) {
+                        background: #f5f5f5;
+                        color: #acacac;
+                        border-bottom: 1px solid #dddddd;
+                        overflow: hidden;
+                        span {
+                            color: #fd7a33;
+                            width: 60%;
+                            overflow: hidden;
+                            display: inline-block;
+                            font-size: 0.5rem;
+                            @include pos();
+                            right: 1rem;
+                        }
+                    }
+                    &:nth-child(2) {
+                        border-bottom: 1px solid #dddddd;
+                    }
+                    &:nth-child(3) {
+                        border-bottom: 1px solid #dddddd;
+                    }
+                }
+            }
+        }
+        .application__btn {
+            width: 25rem;
+            height: 2.8rem;
+            margin: 1rem auto;
+            input {
+                background: #fed655;
+                width: 100%;
+                height: 100%;
+                border: 0;
+                border-radius: 5px;
+                color: white;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

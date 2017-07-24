@@ -1,0 +1,150 @@
+body{
+	background: #f5f5f5;
+}
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+input::-webkit-input-placeholder {
+  color: #a9a9a9; }
+
+header {
+	height: 1.8rem;
+	line-height: 1.8rem;
+	display: flex;
+	justify-content: space-between;
+	background: #ffac2c;
+	padding: 0 0.6rem;
+}
+
+header>div {
+	font-size: 0.9rem;
+	color: #fff;
+}
+header>div a{
+	color: #fff;
+}
+header>div>a>img {
+	width: 0.45rem;
+	height: 0.7rem;
+}
+
+
+
+
+
+main{
+	background: #f5f5f5;
+}
+main>p{
+	padding: 0 0.5rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	font-size: 0.5rem;
+	color: #999;
+}
+main>div{
+	height: 2.5rem;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	display: flex;
+	justify-content: space-between;
+	background: #fff;
+	padding: 0 0.6rem;
+}
+main>div>div:first-child{
+	padding: 0.6rem 0;
+}
+main>div>div>img{
+	width: 1.2rem;
+}
+main>div>div:nth-child(2){
+	width: 10rem;
+	padding-top: 0.5rem;
+}
+main>div>div:nth-child(2)>p>span:first-child{
+	border-radius: 10px;
+	padding: 1px 3px;
+}
+main>div>div:nth-child(2)>p>span:first-child.orange{
+	border: 1px solid #ffab31;
+	color: #ffab31;
+}
+main>div>div:nth-child(2)>p>span:first-child.cya{
+	border: 1px solid #45dbf6;
+	color: #45dbf6;
+}
+main>div>div:nth-child(2)>p>span:first-child.prople{
+	border: 1px solid #f720e0;
+	color: #f720e0;
+}
+main>div>div:nth-child(3){
+	line-height: 2.5rem;
+}
+main>div>div:nth-child(3).gre{
+	color: #0fda1e;
+}
+main>div>div:nth-child(3).red{
+	color: #f86c48;
+}
+main>div>div:nth-child(2)>p:nth-child(2){
+	font-size: 0.6rem;
+	color: #999;
+}
+
+
+
+
+.account{
+	width: 100%;
+	height: 87.2%;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	top: 1.8rem;
+	left: 0;
+	display: none;
+}
+.account>div{
+	background: #fff;
+	padding:22px 15px;
+}
+.account>div>div:first-child{
+	width: 3.5rem;
+	height: 16px;
+	border-radius:4px ;
+	background: #ffad2d;
+	text-align: center;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+.account>div>div:first-child a{
+	color:#fff;
+}
+.account>div>div:nth-child(2){
+	position: relative;
+}
+.account>div>div:nth-child(2) span{
+	position: absolute;
+	color: #999;
+	top: -8px;
+	background: #fff;
+	left: 41.4%;
+	padding:0 15px;
+}
+.account>div>div:last-child{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.account>div>div:last-child>div{
+	width: 3.5rem;
+	height: 16px;
+	border-radius:4px ;
+	background: #e0e0e0;
+	text-align: center;
+	padding: 10px 0;
+}
+.contCent .iconfont{
+	font-size: 14px;
+}
